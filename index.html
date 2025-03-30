@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawan Kumar - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Navigation */
+        nav {
+            background: #f4f4f4;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            background: #f9f9f9;
+        }
+
+        /* Sections */
+        section {
+            padding: 3rem 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        h2 {
+            margin-bottom: 2rem;
+            color: #2c3e50;
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-category {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        /* Experience */
+        .experience-item {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        /* Projects Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            padding: 1.5rem;
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+
+        /* Contact */
+        .contact-links {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>pawan Kumar</h1>
+            <p>Data Analyst passionate about NLP, AI, and building impactful solutions.</p>
+            <button>View My Projects</button>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hi, I'm Pawan Kumar, a Data Analyst with a passion for Natural Language Processing (NLP)...</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming & Data Science</h3>
+                <ul>
+                    <li>Python (Pandas, NumPy, Matplotlib...)</li>
+                    <!-- Add other skills -->
+                </ul>
+            </div>
+            <!-- Repeat for other skill categories -->
+        </div>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Machine Learning Researcher</h3>
+            <p>Institute for Employment Research</p>
+            <p>Nov 2024 - Present</p>
+            <!-- Add details -->
+        </div>
+        <!-- Repeat for other experiences -->
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Persona Chatbot</h3>
+                <p>AI-powered chatbot...</p>
+                <a href="#">GitHub</a>
+            </div>
+            <!-- Repeat for other projects -->
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <div class="contact-links">
+            <a href="https://github.com/Pk4811">GitHub</a>
+            <a href="linkedin.com/in/pawan-kumar">LinkedIn</a>
+            <a href="mailto:kumar.pawan130800@gmail.com">Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Pawan Kumar</p>
+        </div>
+    </footer>
+</body>
+</html>
